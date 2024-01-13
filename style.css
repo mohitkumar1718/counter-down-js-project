@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+
+.main{
+    
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(235, 16%, 14%) ;
+    background-image: url(images/bg-stars.svg);
+    color: white;
+}
+h1{
+   padding-top: 4rem;
+}
+h2{
+    margin-bottom: 7rem;
+
+}
+
+.overlay{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/pattern-hills.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 3vmin;
+    
+}
+.box{
+    width: 10rem;
+    height:9rem;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 1rem;
+    font-size:6rem;
+    text-align: center;
+    color: hsl(345, 95%, 68%);
+    font-weight:800;
+    border: none;
+    
+}
+.box1{
+ width: 10rem;
+ margin-top: 1rem;
+}
